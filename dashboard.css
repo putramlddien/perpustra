@@ -1,0 +1,69 @@
+     * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-image: url("gambar/background.jpg");
+        opacity: 1;
+        display:flex;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #form_wrapper {
+        width: 650px;
+        height: 400px;
+        margin: auto;
+        background-color: var(--form_bg);
+        border-radius: 2px;
+        display: grid; 
+        padding: 15vh 100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border: white;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.6);
+        
+    }
+
+    .button {
+      border-radius: 10px;
+      background-color: #006666;
+      height: 50px;
+      border: none;
+      color: white;
+      padding: 14px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 19px;
+      margin: 0px 20px;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #e0e0e0;
+      color: black;
+    }
+
+    .editbutton:hover {
+      background-color: #006666;
+      color: white;
+    }
+
+     a {
+        text-align: center;
+     }
+
+        h1,
+        span {
+            text-align: center;
+        }
+

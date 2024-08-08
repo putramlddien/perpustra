@@ -1,0 +1,12 @@
+<?php
+$batas=3;
+$halaman=$_GET['halaman'];
+if($halaman=='')
+{
+    $posisi=0;
+    $halaman=1;
+}
+else{
+    $posisi=($halaman-1)*$batas;
+}
+?>

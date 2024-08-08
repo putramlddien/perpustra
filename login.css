@@ -1,0 +1,144 @@
+:root {
+        --form_bg: white;
+        --input_bg: #E5E5E5;
+        --input_hover:#eaeaea;
+        --submit_bg: #1FCC44;
+        --submit_hover: #40e263;
+        --icon_color:#6b6b6b;
+    }
+
+     * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-image: url("gambar/background.jpg");
+        opacity: 1;
+        display:flex;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #form_wrapper {
+        width: 650px;
+        height: 400px;
+        margin:auto;
+        background-color: var(--form_bg);
+        border-radius: 2px;
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2vw;
+        padding: 5vh 15px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border: white;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.6);
+        
+    }
+
+    #form_left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #form_left img {
+        width: 200px;
+        height: 200px;
+    }
+
+     #form_right {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        padding: 15% 5%;
+
+    }
+
+    .input_container {
+        background-color: var(--input_bg);
+        display: flex;
+        align-items: center;
+        padding-left: 50
+        
+    }
+
+    .input_container:hover {
+        background-color: var(--input_hover);
+    }
+
+    .input_container,
+    #input_submit {
+        height: 50px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .input_field {
+        color: var(--icon_color);
+        background-color: inherit;
+        width: 90%;
+        border: none;
+        font-size: 1.3rem;
+        font-weight: 400;
+        padding-left: 30px;
+    }
+
+    .input_field:hover,
+    .input_field:focus {
+        outline: none;
+    }
+
+    .button {
+      border-radius: 5px;
+      background-color: #006666;
+      height: 50px;
+      border: none;
+      color: white;
+      padding: 15px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 0px 100px;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #e0e0e0;
+      color: black;
+    }
+
+    .editbutton:hover {
+      background-color: #006666;
+      color: white;
+    }
+
+    #input_submit {
+        background-color: #006666;
+        padding-left: 0;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    #input_submit:hover {
+        background-color: #009999;
+        transition: background-color,
+            1s;
+        cursor: pointer;
+    }
+
+    h1,
+    span {
+        text-align: center;
+    }
+
